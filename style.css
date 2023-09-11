@@ -46,19 +46,18 @@ body{
     width: 60px;
     cursor: pointer;
 }
-.weather i{
-    font-size: 80px;
+.weather-icon{
     width: 170px;
     margin-top: 30px;
 }
 .weather h1{
-    font-size: 45px;
+    font-size: 80px;
     font-weight: 500;
-    margin-top: 20px;
 }
 .weather h2{
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 400;
+    margin-top: -10px;
 }
 .details{
     display: flex;
@@ -71,15 +70,23 @@ body{
     display: flex;
     align-items: center;
     text-align: left;
-    padding-left: 10px;
 }
-.col i{
+.col img{
     width: 40px;
-    margin-right: 25px;
-    font-size: 50px;
-    margin-top: -1px;
+    margin-right: 10px;
+    
+    
 }
 .humidity,.wind{
-    font-size: 1rem;
+    font-size: 28px;
     margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    display: none;
 }
